@@ -1,0 +1,48 @@
+Menuliskan pertama dengan javascript
+
+console.log("Hello World")
+
+Di JS terdapat 2 variable yaitu let dan const
+Gimana cara gunainnya?
+
+let dan const
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+let 
+
+let lastName merupakan declaration statement
+= merupakan assignment expression
+
+jadi ada statement dan expression
+
+statement merujuk kepada aksi
+expression merujuk kepada nilai
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Apa perbedaan let dan const?
+
+const
+const bisa diartikan constant, artinya kita deklarasi dengan nilai yang konstan dan tidak bisa diubah. Ibaratnya jika sudah beli barang tidak bisa dikembalikan atau diganti / juga bisa dianalogikan sebagai barang yang dimasukan ke dus terus gabisa diambil karena udah disegel
+
+contoh
+
+const z = 100;
+console.log(z);
+z = 200;
+console.log(z);
+
+nah ini bakal error karena z udah ngiket ke 100
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// TIPE DATAAA
+
+// pengklasifikasi data berdasar jenis, tipe data ini dari variable
+
+1. Undefined
+
+Tipe data ini bakal ada ketika variabel tidak ada nilainya, gimana maksudnya?
+contoh 
+let x;
+console.log(typeof(x));
+
+Gimana cara mastiin tipe data? yaitu pake typeof()
