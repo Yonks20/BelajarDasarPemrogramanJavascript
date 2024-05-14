@@ -39,3 +39,15 @@ console.log(z);
 // Apa yang terjadi?
 // Gabisa jalan karena constant variable
 /* TypeError: Assignment to constant variable. */
+
+
+if ((true || false) && (false || false)) {
+    console.log("It's true");
+} else {
+    console.log("It's false");
+}
+
+const name = 'Dicoding';
+const language = 'JavaScript';
+
+console.log(`Hello $name. Welcome to $language!`);
