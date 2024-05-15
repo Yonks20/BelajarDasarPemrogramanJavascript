@@ -24,6 +24,7 @@
  */
 
 // Tulis kode di bawah ini
+
 let restaurant = {
   name: "Bakso Mang Dicoding",
   city: "Bandung",
@@ -33,4 +34,4 @@ let restaurant = {
 };
 
 let name = "Bakso Mang Dicoding";
-let favoriteDrink = "favorite drink";
+let favoriteDrink = restaurant["favorite drink"];
