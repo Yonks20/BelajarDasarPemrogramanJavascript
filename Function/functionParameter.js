@@ -53,3 +53,29 @@ rumusExponen(2, 9);
 // HASIL DIATAS AKAN UNDIFNED JIKA ANGKA LEBIH KECIL
 
 // BISA DITAMBAHKAN DEFAULT PADA PARAMETERNYA
+
+// REST PARAMETER
+
+// Kalau spread operator menyebarkan array menjadi elemen berbeda, rest parameter ini kebalikan dari spread operator tersebut
+
+// Rest Parameter dituliskan menggunakan three consecutive dots (TITIK TIGA) (...) dengan rest parameter, kita menggabungkan beberapa elemen menjadi satu array. Teknik ini sangat bermanfaat ketika membuat fungsi parameter yang tidak pasti
+
+// buat dulu function
+function sum(...numbers) {
+  let result = 0;
+  for (let number of numbers) {
+    result += number;
+  }
+  return result;
+}
+
+console.log(sum(1, 2, 3, 4, 5));
+
+// Buat fungsi sum untuk menyimpan array dari number, yang isinya rest parameter
+// Buat variable untuk menyimpan nilai result atau hasil = 0
+// Buat preulangan for of
+// Isi dari for of yaitu variable baru of parameter yang diatas
+// Isinya nilai result += (ditambah) variable number
+// kemablikan nilai result (return result)
+
+// console.log(sum(1,2,3,4,5))
